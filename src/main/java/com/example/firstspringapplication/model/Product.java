@@ -1,2 +1,16 @@
-package com.example.firstspringapplication.model;public class Product {
+package com.example.firstspringapplication.model;
+
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class Product {
+    private String name;
+    private int amount;
+    private double price;
+
 }
